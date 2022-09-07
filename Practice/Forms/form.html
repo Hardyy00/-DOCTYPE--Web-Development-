@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width , initial-scale = 1.0" />
+        <title>Form</title>
+    </head>
+
+    <form action="yes.html" method="put">
+        <fieldset>
+            <legend>Your Details :</legend>
+            <label for="name">Name : </label>
+            <input type="text" name = "name" id="name" required="required" />
+            <br />
+
+            <label for="email">Email : </label>
+            <input type="email" name = "email" id="email" required = "required" />
+            <br />
+            
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Your Review :</legend>
+            <br />
+
+            <label for="hearing">How did you hear about us? </label>
+            <select name = "hearing" id="hearing">
+                <option value = "google">google</option>
+                <option value="yahoo">yahoo</option>
+                <option value="bing">Bing</option>
+            </select>
+            <br/><br />
+
+            <label for="radio">Would you like to visit again?</label>
+            <input id="radio" type="radio" name="choice"  value="yes" />Yes
+            <input id="radio" type="radio" name="choice" value="no" /> No
+            <input id="radio" type="radio" name="choice" value="maybe" />Maybe
+
+            <br/><br />
+
+            <label id="comments">Comments : </label>
+            <br />
+            <textarea name="comments" id="comments" rows="4" cols="20"></textarea> 
+            <br/>
+
+            <br />
+            <input type="hidden" name="email updates" value="0">    <!--For a default value-->
+            <input type="checkbox" name="email updates" value="1" checked="checked" />Sign me up for email 
+                    updates<br />
+            
+            <input type="submit" value="Submit review">
+    
+        </fieldset>
+
+        </form>
+    </body>
+</html>
+
+

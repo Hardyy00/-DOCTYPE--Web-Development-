@@ -1,0 +1,46 @@
+#heading{
+
+    margin : 0px auto;
+    font-size : 50px;
+    
+
+    color: rgb(6, 6, 160);
+    text-align: center;
+    text-shadow: 2px 3px 1px black;
+
+}
+
+html{
+
+    margin : 0 auto;
+    font-family : sans-serif;
+    background-color: rgb(4, 4, 133);
+  
+}
+
+body{
+    opacity: 100%;
+
+    border : 5px solid black;
+    font-weight: bold;
+
+    margin: 0px auto ;
+
+    background-color: rgb(217, 141, 0);
+    padding : 0px 20px 20px 20px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 2;
+    width :600px;
+    height : 650px;
+    
+}
+
+img{
+
+    width:350px;
+    margin: 0 auto;
+    display: block;
+    border : 3px solid black;
+    
+}

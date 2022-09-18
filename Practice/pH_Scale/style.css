@@ -1,0 +1,88 @@
+*{
+    background : rgb(206, 198, 198);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background: whitesmoke;
+    padding: 10px 10px 10px 10px;
+    margin: 35px 10px;
+    color : gray;
+    font-size : 30px;
+    text-align : center;
+}
+
+
+p{
+    padding: 5px;
+    color : white;
+    margin : 0px 10px;
+    font-size: 20px;
+
+}
+
+p.fourteen {
+    background : rgb(0,136,221);
+    text-transform: uppercase ;
+
+
+}
+
+p.thirteen{
+    background-color: rgb(0,149,226);
+}
+
+p.twelve{
+    background-color: rgb(0,160,230);
+}
+
+p.eleven{
+    background-color: rgb(48,170,233);
+}
+
+p.ten{
+    background-color: rgb(84,182,237);
+}
+
+p.nine{
+    background-color: rgb(114,193,240);
+}
+
+p.eight{
+    background-color: rgb(140,202,242);
+}
+
+p.seven{
+    background-color: rgb(0,187,136);
+    text-transform: uppercase;
+}
+
+p.six{
+    background-color:  rgb(245,176,204);
+}
+
+p.five{
+    background-color:rgb(246,159,192) ;
+}
+
+p.four{
+    background-color: rgb(245,140,178) ;
+}
+
+p.three{
+    background-color: rgb(243,106,152); ;
+}
+
+p.two{
+    background-color:  rgb(243,106,152);;
+}
+
+p.one{
+    background-color: rgb(244,90,139) ;
+}
+
+p.zero{
+    background-color: rgb(238,62,128);
+    text-transform: uppercase;
+}
+
